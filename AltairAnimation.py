@@ -10,9 +10,9 @@ import pandas as pd
 import altair as alt
 import streamlit as st
 import time
-data_04 = pd.read_csv('/Users/zhangjianqiao/Documents/ANLY503/hw4/data_04_melt.csv')
-data_05 = pd.read_csv('/Users/zhangjianqiao/Documents/ANLY503/hw4/data_05_melt.csv')
-data_06 = pd.read_csv('/Users/zhangjianqiao/Documents/ANLY503/hw4/data_06_melt.csv')
+data_04 = pd.read_csv('data_04_melt.csv')
+data_05 = pd.read_csv('data_05_melt.csv')
+data_06 = pd.read_csv('data_06_melt.csv')
 
 data_04['date'] = pd.to_datetime(data_04['Date'])
 data_05['date'] = pd.to_datetime(data_05['Date'])
